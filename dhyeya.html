@@ -1,0 +1,70 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+<meta charset="UTF-8"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<title>Advanced Responsive Webpage</title> 
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet"> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"> 
+<style> body{   margin:0; 
+  font-family:'Poppins', sans-serif;   background:#eef2f3; 
+} .header{ 
+  background:linear-gradient(45deg,#1e3c72,#2a5298);   color:white;   text-align:center;   padding:30px; 
+} 
+.navbar{   display:flex;   justify-content:center;   background:#333;   flex-wrap:wrap; 
+} .navbar a{   color:white;   padding:15px 20px;   text-decoration:none;   transition:0.3s; 
+} 
+.navbar a:hover{   background:orange; 
+} .container{   padding:20px; 
+} 
+.columns{   column-count:3;   column-gap:25px;   column-rule:2px solid gray;   background:white;   padding:20px;   border-radius:10px; 
+ 
+} .card{   background:white;   width:250px;   padding:20px;   text-align:center;   border-radius:15px;   box-shadow:0 5px 10px rgba(0,0,0,0.2);   transition:transform 0.5s, box-shadow 0.5s; 
+} 
+.footer{   background:#333;   color:white;   text-align:center;   padding:15px;   margin-top:20px; 
+} 
+</style> </head> 
+<body> 
+<div class="header"> 
+  <h1>Responsive Webpage</h1> 
+  <p>Using CSS3 Features: Columns, Icons, Animation & Transform</p> 
+</div> 
+<div class="navbar"> 
+  <a href="#">Home</a>   <a href="#">About</a> 
+  <a href="#">Services</a> 
+  <a href="#">Contact</a> 
+</div> 
+<div class="container"> 
+  <div class="columns"> 
+    <p> 
+      This webpage demonstrates advanced CSS3 features such as responsive design,       multi-column layouts, animations, and transformations. CSS3 helps create       visually appealing and user-friendly web pages. 
+    </p> 
+    <p> 
+      The layout automatically adjusts based on screen size using media queries.       Modern web design focuses on flexibility and responsiveness to support       mobile, tablet, and desktop devices. 
+    </p> 
+  </div> 
+  <div class="cards"> 
+    <div class="card"> 
+      <i class="fa-solid fa-laptop icon"></i> 
+      <h2>Web Design</h2> 
+      <p>Create modern websites using HTML & CSS.</p> 
+Department of First Year, 
+    </div> 
+    <div class="card"> 
+      <i class="fa-solid fa-mobile-screen icon"></i> 
+      <h2>Responsive</h2> 
+      <p>Works perfectly on mobile and desktop.</p> 
+    </div> 
+    <div class="card"> 
+      <i class="fa-solid fa-gear icon"></i> 
+      <h2>Advanced CSS</h2> 
+      <p>Includes animation and transformations.</p> 
+    </div> 
+  </div> 
+  <div class="box"></div> 
+</div> 
+<div class="footer"> 
+  <p>© 2026 Web Designing Practical | CSS3 Project</p> 
+</div> 
+</body> 
+</html> 
